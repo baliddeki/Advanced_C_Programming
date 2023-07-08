@@ -23,12 +23,7 @@ int swap(int *num1, int *num2)
 
 int main()
 {
-    /**
-     * int a = 13, b = 25;
-     * int temp1, temp2;
-     * swap(a, b);
-     * printf("The swapped new value of a is %d and new value of b is %d ", a, b);
-     */
+
     int num1 = 13, num2 = 14;
     swap(&num1, &num2);
     printf("The swapped new value of a is %d and new value of b is %d ", num1, num2);
